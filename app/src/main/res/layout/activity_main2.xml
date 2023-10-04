@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/test3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="learn more"
+        android:background="@color/material_dynamic_neutral95"
+        android:layout_gravity="bottom|center"
+        android:paddingTop="1dp" /> <!-- Adjust the value to move the text down -->
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="155dp"
+        android:layout_height="93dp"
+        app:srcCompat="@drawable/logoskyline" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="134dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="52dp"
+        android:text="SKYLINE 34"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</FrameLayout>
